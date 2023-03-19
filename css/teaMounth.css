@@ -1,0 +1,34 @@
+.Tea{
+    background-color: rgb(0, 0, 0);
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+     
+}
+
+.Tea__titulo{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+.Tea__produtos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 50px;
+    margin-top: 15px;
+}
+.Tea__elemento{
+    width: 300px;
+    height:200px;
+    display: flex;
+    flex-direction: column; 
+}
+.Tea__elemento h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

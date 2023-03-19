@@ -1,0 +1,27 @@
+nav{
+    background-color: black;
+    width: 100vw;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+}
+.logo{
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul{
+    margin-right:24px ;
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    text-decoration: underline;
+    color: white;
+    padding: 8px;
+
+}
+

@@ -1,0 +1,52 @@
+.location{
+    background-image: url(cafe.jpg);
+    width: 1200px;
+    height: 500px;
+    gap:40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+}
+.location__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.location__quadrado{
+    display: flex;
+    margin-top: 15px;
+    gap: 40px;
+}
+.downtown{
+    background-color: black;
+    width: 300px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+.eastBayside{
+    background-color: black;
+    width: 300px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+.oakdale{
+    background-color: black;
+    width: 300px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    opacity: 1;
+}
